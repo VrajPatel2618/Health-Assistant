@@ -197,13 +197,7 @@ Prompt-based interactive console with real-time input validation:
 python src/interactive_predict.py
 ```
 
-### 5. Interactive Web Application (Optional)
-Run the browser dashboard with sliders and real-time risk meter:
-```bash
-streamlit run app.py
-```
-
-### 6. Programmatic Python Prediction
+### 5. Programmatic Python Prediction
 ```python
 from src.predict import predict_cardiovascular_risk
 
